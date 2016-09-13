@@ -1,0 +1,36 @@
+DOMXSS –> localStorage XSS –> The persistent vector your sever will never see.
+Vulnerable Code:
+
+<script language=”JavaScript”>
+
+var Id = getPramValue(“id”);
+
+var persistId = localStorage.getItem(‘id’);
+
+if( isValid(Id) ){
+
+document.write(‘<a href=”http://www.example?.com/?s=13436&id=’+ Id” id=”store_locator”>’);
+
+document.write(‘<div>Find Store</div>’);
+
+document.write(‘</a>’);
+
+} else if( localStorage && isValid(persistId)) {
+
+document.write(‘<a href=”http://www.example.com/?s=13436&id=’+ persistId” id=”store_locator”>’);
+
+document.write(‘<div>Find Store</div>’);
+
+document.write(‘</a>’);
+
+}else {
+
+document.write(‘<a href=”http://www.example.com/locator” class=”scroll linktomap” id=”store_locator”>’);
+
+document.write(‘<div>Find Store</div>’);
+
+document.write(‘</a>’);
+
+}
+
+</script>
