@@ -1,0 +1,40 @@
+DOM Based XSS
+
+It is the third kind of XSS where malicious script can be executed without the server being able to determine what is exactly getting executed. 
+
+In our traditional XSS the flow is attacker sends malicious script that is echoed back later by the application in an HTML context of some sort, and the Javascript code gets executed. 
+In DOM based XSS, there is a web page using javascript to dynamically assigning values to variables using DOM objects. By manipulating these DOM values an attacker can perform cross site scripting. To better understand about this attack following are the sample examples:
+
+Take an url like
+
+	http://www.abc.com/a.aspx?name=Paladion
+
+Lets say Here name parameter will have two cases:
+	1:- Server ignores the value of this parameter and send back as it is to the client.
+	2:- Server validates this parameters value and if it contains malicious characters than server will not allow script to be executed. 
+1.
+Assume in first case, page a.aspx contains a javascript to display "Welcome <name>" on user's screen. Here value of <name> it fetches from document.url( document.url is a client side DOM object which stores url of current page as its value).
+Now the response will displays "welcome Paladion" on user's screen.
+
+Here in this case attacker will craft an url like:
+
+	http://www.abc.com/a.aspx?name=<script>alert("XSS")</script>         
+
+Sends it as a link to victim via email and waits for victim to click on it. When victim clicks on that link a request from victim's browser goes to the abc.com server( server does not process the name parameters value and send it back as it is). In response a.aspx page is rendered containing javascript using DOM's document.url object whose value instead of a simple name is attackers script. And this script gets executed.
+
+2.
+Now let us consider second case where server is validating values of name parameter. In this case attcker will craft an url like:
+
+	http://www.abc.com/a.aspx#name=<script>alert("XSS")</script>
+
+Sends it as a link to victim via email. When victim clicks on this link the request going from browser to server is like;
+	http://www.abc.com/a.aspx
+
+Notice the number sign (#) right after the file name. It tells the browser that everything beyond it is a fragment, i.e. not part of the query. Browsers do not send the fragment to the server. So the script payload would not even be seen by the server. But the complete url is formed as it is and document.url will contain url with our payload. So the javascript on a.aspx page fetches this malicious script from document.url as the value of name parameter and attackers script gets executed.
+
+For more details refer owasp testing guide v3 page no.198 and http://www.webappsec.org/projects/articles/071105.shtml
+
+for information on DOM refer http://en.wikipedia.org/wiki/Document_Object_Model
+ 
+
+ 

@@ -1,0 +1,22 @@
+XML Injection cheat sheet
+
+
+
+<?xml version="1.0" encoding="ISO-8859-1"?> 
+<users> 
+	<user> 
+		<username>0365</username> 
+		<password>@appteam</password> 
+		<userid>0</userid>
+		<mail>parveyad@in.ibm.com</mail>
+	</user> 
+	<user> 
+		<username>Stefan0</username> 
+		<password>w1s3c</password> 
+		<userid>500</userid>
+		<mail>Stefan0@whysec.hmm</mail>
+	</user> 
+</users>
+
+
+<![CDATA[<]]>script<![CDATA[>]]>alert('xss')<![CDATA[<]]>/script<![CDATA[>]]>

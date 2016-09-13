@@ -1,0 +1,51 @@
+fice common context ???
+context is an enviornment where user supploed input & input from thert
+
+html context :- 
+use  supplied input reflects back 
+if our search ends in body tag that means wehave html contexts
+
+attribute context :- 
+
+if payload comes in class...
+it reflects back attribute in source code in <title> framework
+
+
+script context :- 
+if our payload comes in script block..or script context
+it is a double quotes case
+another ex:- 
+junk xss payload comes in script block
+
+in times of india website our input reflects back as of their 
+
+URL CONTEXT :- 
+
+our supplied payload comes back in <a href ...<iframe> or <embed>
+everyone that deals with url comes under this context
+
+style context :- 
+is popular in case where web app. allow some harmless markup
+or rich text functionality like bold case
+
+attack methodlogy :- how to break into it.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+html
+script
+attribute
+style & url

